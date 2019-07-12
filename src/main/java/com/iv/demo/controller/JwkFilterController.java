@@ -44,7 +44,7 @@ public class JwkFilterController implements Filter {
 
 
         //------------解析------------------------------------------------------
-        //com.nimbusds JWT解析包，这个包目前没有找到源代码
+        //com.nimbusds JWT解析包，这个包目前没有找到源代码,
         //https://connect2id.com/products/nimbus-jose-jwt/examples/validating-jwt-access-tokens
         //建立解析处理对象
         ConfigurableJWTProcessor jwtProcessor = new DefaultJWTProcessor();
